@@ -1,1 +1,6 @@
-
+#first-form label, #first-form input{
+  display: block;
+}
+#first-form [name="first-name"], #first-form [name="last-name"]{
+  display: inline;
+}

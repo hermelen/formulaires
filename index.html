@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulaires</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+<form id="first-form" action="index.html" method="post">
+
+  <label for="first-name">Full Name<span>*</span></label>
+  <input id="first-name" type="text" name="first-name" placeholder="First">
+  <input type="text" name="last-name" placeholder="Last">
+
+  <label for="email">Email<span>*</span></label>
+  <input id="email" type="email" name="email" value="">
+
+  <label for="subject">Subject</label>
+  <select id="subject" name="subject">
+    <option value="advertise">Advertise</option>
+    <option value="job">Job</option>
+    <option value="hobby">Hobby</option>
+  </select>
+
+  <label for="your-message">Your message<span>*</span></label>
+  <textarea id="your-message" name="your-message"></textarea>
+
+  <input type="submit" name="submit" value="Submit">
+
+</form>
+  </body>
+</html>

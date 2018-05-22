@@ -1,10 +1,19 @@
+sup {
+  color: red;
+}
+
 body {
     background-color: grey;
 }
+form{
+  width: 50%;
+  margin:auto;
+  margin-bottom: 3em;
+}
+/*=============================== FIRST-FORM ==============================*/
+
 #first-form{
   padding: 1em;
-  width: 33%;
-  margin:auto;
   border: none;
   background-color: white;
 }
@@ -60,6 +69,37 @@ body {
 #first-form label{
     font-weight: bold;
 }
-sup {
-    color: red;
+
+
+/*=============================== SECOND-FORM ==============================*/
+
+#second-form{
+  background-color: white;
+  padding: 1em;
+}
+
+#second-form input, #second-form select, #second-form textarea, #second-form label{
+  display: inline-block;
+}
+
+#second-form input.phone2{
+  display: inline-block;
+  width: 10%;
+}
+
+#second-form p{
+  display: inline;
+}
+#second-form label{
+  width: 25%;
+}
+#second-form input, #second-form select, #second-form textarea{
+  width: 50%;
+}
+
+section.phone2 label{
+  width: 25%;
+}
+section.phone2 input{
+  width: 10%;
 }

@@ -20,10 +20,10 @@
 
         <label for="subject">Subject</label>
         <select id="subject" name="subject">
-    <option value="advertise">Advertise</option>
-    <option value="job">Job</option>
-    <option value="hobby">Hobby</option>
-  </select>
+          <option value="advertise">Advertise</option>
+          <option value="job">Job</option>
+          <option value="hobby">Hobby</option>
+        </select>
 
         <label for="your-message">Your message<sup>*</sup></label>
         <textarea id="your-message" name="your-message"></textarea>
@@ -31,6 +31,10 @@
         <input type="submit" name="submit" value="Submit">
 
     </form>
+
+
+
+
     <form id="second-form" action="index.html" method="post">
         <fieldset>
             <legend>Provide your information</legend>
@@ -41,10 +45,12 @@
             <label for="email2">Email<sup>*</sup></label>
             <input type="email" name="email2" id="email2" value="">
 
-            <label for="phone2" class="phone2">Telephone</label>
-            <input type="text" id="phone2" class="phone2">
-            <input type="text" class="phone2">
-            <input type="text" class="phone2">
+            <section class="phone2">
+              <label for="phone2" class="phone2">Telephone</label>
+              <input type="text" id="phone2" class="phone2"><p>-</p>
+              <input type="text" class="phone2"><p>-</p>
+              <input type="text" class="phone2">
+            </section>
 
             <label for="choice">Regarding</label>
             <select class="" name="">

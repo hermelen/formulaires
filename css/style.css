@@ -1,7 +1,12 @@
+body {
+    background-color: grey;
+}
 #first-form{
   padding: 1em;
   width: 33%;
-  background-color: grey;
+  margin:auto;
+  border: none;
+  background-color: white;
 }
 
 #first-form label, #first-form input{
@@ -10,7 +15,7 @@
 
 #first-form [name="first-name"], #first-form [name="last-name"]{
   display: inline-block;
-  width: 50%;
+  width: 48.25%;
   padding: 0;
   margin: 0;
   height: 2em;
@@ -21,15 +26,20 @@
 }
 
 
-
+#first-form input, #first-form textarea, #first-form select {
+    border: 1%;
+}
 
 #first-form select{
     width: 100.5%;
-    border-width: 1px;
+
     height: 2.5em;
+    background: #dddddd;
+    -webkit-apparence: none;
 }
 #first-form option {
     padding: 0;
+    background: #dddddd;
 }
 
 #first-form [name="email"]{
@@ -46,4 +56,10 @@
   color: white;
   border: none;
   padding: 0.75em 1.5em;
+}
+#first-form label{
+    font-weight: bold;
+}
+sup {
+    color: red;
 }

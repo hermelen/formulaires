@@ -13,6 +13,7 @@ form{
 /*=============================== FIRST-FORM ==============================*/
 
 #first-form{
+  font-family: sans-serif;
   padding: 1em;
   border: none;
   background-color: white;
@@ -76,14 +77,11 @@ form{
 #second-form{
   background-color: white;
   padding: 1em;
+  font-family: sans-serif;
 }
 
 #second-form input{
     height: 1.5em;
-    border-radius: 0.1rem;
-    border: solid;
-    border-width: 1px;
-    border-color: grey;
 }
 
 #second-form input, #second-form select, #second-form textarea, #second-form label{
@@ -97,12 +95,18 @@ form{
 
 #second-form p{
   display: inline;
+  /* margin-right: -5px; */
 }
 #second-form label{
   width: 25%;
 }
 #second-form input, #second-form select, #second-form textarea{
   width: 50%;
+  border-radius: 0.2rem;
+  border: 1px solid #dddddd;
+  box-shadow: 2px 2px 5px #dddddd;
+  margin: 0.5em 0;
+  padding: 0.3em 0;
 }
 
 section.phone2 label{
@@ -113,7 +117,7 @@ section.phone2 label{
 }
 
 #second-form select {
-    background-color: grey;
+    background-color: #dddddd;
     width: 18%;
     height: 3em;
 }
@@ -134,4 +138,24 @@ section.choice select{
 }
 #second-form textarea{
     border-radius: 0.1rem;
+    height: 6em;
+}
+
+#second-form legend, #second-form label {
+  font-weight: bold;
+}
+
+#second-form legend {
+  font-style: italic;
+}
+
+#second-form hr {
+  border: none;
+  background-color: #dddddd;
+  height: 1px;
+}
+
+#second-form label[for="message2"]{
+  vertical-align: top;
+  padding-top: 15px;
 }

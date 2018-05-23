@@ -1,120 +1,127 @@
 sup {
-  color: red;
+    color: red;
+    margin-left: 0.3em;
 }
 
 body {
     background-color: grey;
 }
-form{
-  width: 50%;
-  margin:auto;
-  margin-bottom: 3em;
+
+form {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 3em;
 }
+
 /*=============================== FIRST-FORM ==============================*/
 
-#first-form{
-  font-family: sans-serif;
-  padding: 1em;
-  border: none;
-  background-color: white;
+#first-form {
+    font-family: sans-serif;
+    padding: 1em;
+    border: none;
+    background-color: white;
 }
 
-#first-form label, #first-form input{
-  display: block;
+#first-form label, #first-form input {
+    display: block;
 }
 
-#first-form [name="first-name"], #first-form [name="last-name"]{
-  display: inline-block;
-  width: 48.25%;
-  padding: 0;
-  margin: 0;
-  height: 2em;
+#first-form [name="first-name"], #first-form [name="last-name"] {
+    display: inline-block;
+    width: 48.25%;
+    padding: 0;
+    margin: 0;
+    height: 2em;
 }
 
-#first-form input, #first-form textarea, #first-form select, #first-form label{
-  margin: 0.5em 0em;
+#first-form input, #first-form textarea, #first-form select, #first-form label {
+    margin: 0.5em 0em;
 }
-
 
 #first-form input, #first-form textarea, #first-form select {
     border: 1%;
 }
 
-#first-form select{
+#first-form select {
     width: 100.5%;
-
     height: 2.5em;
     background: #dddddd;
     -webkit-apparence: none;
 }
+
 #first-form option {
     padding: 0;
     background: #dddddd;
 }
 
-#first-form [name="email"]{
+#first-form [name="email"] {
     width: 100%;
     height: 2em;
 }
-#first-form textarea{
+
+#first-form textarea {
     width: 100%;
     height: 10em;
     padding: 0 0;
 }
-#first-form input[type="submit"]{
-  background-color: #4b99ad;
-  color: white;
-  border: none;
-  padding: 0.75em 1.5em;
+
+#first-form input[type="submit"] {
+    background-color: #4b99ad;
+    color: white;
+    border: none;
+    padding: 0.75em 1.5em;
 }
-#first-form label{
+
+#first-form label {
     font-weight: bold;
 }
 
-
 /*=============================== SECOND-FORM ==============================*/
 
-#second-form{
-  background-color: white;
-  padding: 1em;
-  font-family: sans-serif;
+#second-form {
+    background-color: white;
+    padding: 1em;
+    font-family: sans-serif;
 }
 
-#second-form input{
+#second-form input {
     height: 1.5em;
 }
 
-#second-form input, #second-form select, #second-form textarea, #second-form label{
-  display: inline-block;
+#second-form input, #second-form select, #second-form textarea, #second-form label {
+    display: inline-block;
 }
 
-#second-form input.phone2{
+#second-form input.phone2 {
     position: relative;
-  display: inline-block;
-  width: 10%;
-  z-index: 1;
+    display: inline-block;
+    width: 10%;
+    z-index: 1;
 }
+
 #second-form section.phone2 {
-position: relative;
+    position: relative;
 }
 
-#second-form label{
-  width: 25%;
-}
-#second-form input, #second-form select, #second-form textarea{
-  width: 50%;
-  border-radius: 0.2rem;
-  border: 1px solid #dddddd;
-  box-shadow: 2px 2px 5px #dddddd;
-  margin: 0.5em 0;
-  padding: 0.3em 0;
+#second-form label {
+    width: 25%;
 }
 
-section.phone2 label{
-  width: 25%;
+#second-form input, #second-form select, #second-form textarea {
+    width: 50%;
+    border-radius: 0.2rem;
+    border: 1px solid #dddddd;
+    box-shadow: 2px 2px 5px #dddddd;
+    margin: 0.5em 0;
+    padding: 0.3em 0;
 }
-#second-form section.phone2 input{
-  width: 5%;
+
+section.phone2 label {
+    width: 25%;
+}
+
+#second-form section.phone2 input {
+    width: 5%;
 }
 
 #second-form select {
@@ -122,13 +129,16 @@ section.phone2 label{
     width: 18%;
     height: 3em;
 }
-section.choice label{
+
+section.choice label {
     width: 25%;
 }
-section.choice select{
+
+section.choice select {
     width: 30%;
 }
-#second-form input[type="submit"]{
+
+#second-form input[type="submit"] {
     background-color: #FF8500;
     width: 10%;
     height: 2em;
@@ -137,89 +147,108 @@ section.choice select{
     border: none;
     border-radius: 0.1rem;
 }
-#second-form textarea{
+
+#second-form textarea {
     border-radius: 0.1rem;
     height: 6em;
 }
 
 #second-form legend, #second-form label {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 #second-form legend {
-  font-style: italic;
+    font-style: italic;
 }
 
 #second-form hr.legend {
-  border: none;
-  background-color: #dddddd;
-  height: 1px;
-}
-#second-form hr.hr_phone2 {
-width: 16%;
-position: absolute;
-bottom: 0.8em;
-left: 26%;
-z-index: 0;
+    border: none;
+    background-color: #dddddd;
+    height: 1px;
 }
 
-#second-form label[for="message2"]{
-  vertical-align: top;
-  padding-top: 15px;
+#second-form hr.hr_phone2 {
+    width: 16%;
+    position: absolute;
+    bottom: 0.8em;
+    left: 26%;
+    z-index: 0;
 }
+
+#second-form label[for="message2"] {
+    vertical-align: top;
+    padding-top: 15px;
+}
+
 /*========================= THIRD FORM =====================================*/
 
 #third-form {
- font-family: sans-serif;
+    font-family: sans-serif;
+    background-color: white;
+    padding: 1em;
 }
 
-#third-form fieldset{
- background-color: #fff0f0;
- border: 2px solid #ffd2d2;
- border-radius: 0.8em;
- padding: 1em;
- color: #f287b6;
+#third-form fieldset {
+    background-color: #fff0f0;
+    border: 2px solid #ffd2d2;
+    border-radius: 0.8em;
+    padding: 2em;
+    color: #f287b6;
 }
 
-#third-form legend{
-  border-style: solid solid none solid;
-  border-color: #ffd2d2;
-  background-color: #fff0f0;
-  border-width: 2px;
-  border-radius: 0.4em 0.4em 0 0;
-  padding: 0.5em;
+#third-form legend {
+    border-style: solid solid none solid;
+    border-color: #ffd2d2;
+    background-color: #fff0f0;
+    border-width: 2px;
+    border-radius: 0.4em 0.4em 0 0;
+    padding: 0.5em;
 }
 
 #third-form label {
-  font-weight: bold;
+    font-weight: bold;
+    width: 25%;
 }
 
-#third-form select {
-  background-color: #ffeff6;
-  color: #f287b6;
-}
+
+
 #third-form input[name="sub3"] {
-  background-color: #eb3b88;
-  color: #ffcbe2;
+    background-color: #eb3b88;
+    color: #ffcbe2;
+    width: 12%;
+    height: 2.5em;
+    margin-left: 25.5%;
+    border-radius: 0.3em;
+    border: 1px solid #ffc2dc;
+    font-weight: bold;
 }
 
-#third-form input, #third-form textarea{
-  border-radius: 0.2em;
-  border: 2px solid #ffc2dc;
-  background-color: #ffeff6;
+#third-form input, #third-form textarea, #third-form select {
+    border-radius: 0.2em;
+    border: 2px solid #ffc2dc;
+    background-color: #ffeff6;
 }
-#third-form {
 
+#third-form label, #third-form input, #third-form textarea, #third-form select {
+    display: inline-block;
+    margin: 0.5em 0;
 }
-#third-form {
 
+#third-form input, #third-form select{
+    width: 50%;
+    height: 1.5em;
+    color: #eb3b88;
 }
-#third-form {
 
+#third-form textarea {
+    width: 65%;
+    height: 7em;
 }
-#third-form {
 
+#third-form label[for="text3"] {
+    vertical-align: top;
+    padding-top: 8px;
 }
-#third-form {
-
+#third-form select {
+    height: 2em;
 }

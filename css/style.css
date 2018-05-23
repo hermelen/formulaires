@@ -252,3 +252,51 @@ section.choice select {
 #third-form select {
     height: 2em;
 }
+
+/* =========================== FORTH FORM ========================== */
+#forth-form {
+  background-color: #495c70;
+  border: 5px solid #53687e;
+  padding: 1em;
+}
+
+#forth-form input, #forth-form label{
+  display: inline-block;
+}
+
+#forth-form label{
+  width: 25%;
+  color: #fafafb;
+}
+
+#forth-form input{
+  width: 50%;
+  height: 1.5em;
+  background-color: #495c70;
+  border-style: none none dashed none;
+  border-color: #8599ae;
+  border-width: 1px;
+}
+
+
+#forth-form input[name="sub4"]{
+  margin-left: 25.5%;
+  border: none;
+  width: 20%;
+  border-radius: 0.3em;
+  height: 2em;
+  background-color: #53687e;
+  color: #8599ae;
+}
+
+#forth-form{
+
+}
+
+#forth-form{
+
+}
+
+#forth-form{
+
+}

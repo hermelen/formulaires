@@ -89,14 +89,15 @@ form{
 }
 
 #second-form input.phone2{
+    position: relative;
   display: inline-block;
   width: 10%;
+  z-index: 1;
+}
+#second-form section.phone2 {
+position: relative;
 }
 
-#second-form p{
-  display: inline;
-  /* margin-right: -5px; */
-}
 #second-form label{
   width: 25%;
 }
@@ -149,10 +150,17 @@ section.choice select{
   font-style: italic;
 }
 
-#second-form hr {
+#second-form hr.legend {
   border: none;
   background-color: #dddddd;
   height: 1px;
+}
+#second-form hr.hr_phone2 {
+width: 16%;
+position: absolute;
+bottom: 0.8em;
+left: 26%;
+z-index: 0;
 }
 
 #second-form label[for="message2"]{

@@ -38,7 +38,7 @@
     <form id="second-form" action="index.html" method="post">
         <fieldset>
             <legend>Provide your information</legend>
-            <hr>
+            <hr class="legend">
             <label for="name2">Name<sup>*</sup></label>
             <input type="text" name="name" id="name2" value="">
 
@@ -47,9 +47,10 @@
 
             <section class="phone2">
               <label for="phone2" class="phone2">Telephone</label>
-              <input type="text" id="phone2" class="phone2"><p>-</p>
-              <input type="text" class="phone2"><p>-</p>
+              <input type="text" id="phone2" class="phone2">
               <input type="text" class="phone2">
+              <input type="text" class="phone2">
+              <hr class="hr_phone2">
             </section>
 
         <section class="choice">
@@ -66,6 +67,33 @@
 
             <input type="submit" name="submit2" value="Submit">
 
+        </fieldset>
+    </form>
+
+    <form id="third-form" action="index.html" method="post">
+        <fieldset>
+            <legend>Personal</legend>
+            <label for="name3">Name<sup>*</sup></label>
+            <input type="text" name="name" id="name3" value="">
+
+            <label for="email3">Email<sup>*</sup></label>
+            <input type="email" name="email3" id="email3" value="">
+
+            <label for="phone3">Phone</label>
+            <input type="tel" name="phone3" id="phone3" value="">
+
+            <label for="subject3">Subject</label>
+            <select id="subject3" name="subject3">
+              <option value="appointment">Appointment</option>
+              <option value="job">Job</option>
+              <option value="hobby">Hobby</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <label for="text3">Message</label>
+            <textarea id="text3" name="text3"></textarea>
+
+            <input type="submit" name="sub3" value="Submit">
         </fieldset>
     </form>
 </body>

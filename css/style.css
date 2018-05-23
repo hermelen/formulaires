@@ -167,3 +167,59 @@ z-index: 0;
   vertical-align: top;
   padding-top: 15px;
 }
+/*========================= THIRD FORM =====================================*/
+
+#third-form {
+ font-family: sans-serif;
+}
+
+#third-form fieldset{
+ background-color: #fff0f0;
+ border: 2px solid #ffd2d2;
+ border-radius: 0.8em;
+ padding: 1em;
+ color: #f287b6;
+}
+
+#third-form legend{
+  border-style: solid solid none solid;
+  border-color: #ffd2d2;
+  background-color: #fff0f0;
+  border-width: 2px;
+  border-radius: 0.4em 0.4em 0 0;
+  padding: 0.5em;
+}
+
+#third-form label {
+  font-weight: bold;
+}
+
+#third-form select {
+  background-color: #ffeff6;
+  color: #f287b6;
+}
+#third-form input[name="sub3"] {
+  background-color: #eb3b88;
+  color: #ffcbe2;
+}
+
+#third-form input, #third-form textarea{
+  border-radius: 0.2em;
+  border: 2px solid #ffc2dc;
+  background-color: #ffeff6;
+}
+#third-form {
+
+}
+#third-form {
+
+}
+#third-form {
+
+}
+#third-form {
+
+}
+#third-form {
+
+}
